@@ -1,36 +1,18 @@
-body {
+/* Reset */
+* {
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Horror Theme */
+body {
+  font-family: 'Creepster', cursive;
   background-color: black;
   color: white;
 }
 
-h1, h2, h3 {
-  color: crimson;
-  text-transform: uppercase;
-}
-
-a {
-  color: crimson;
-  text-decoration: none;
-}
-
-button {
-  background: crimson;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-button:hover {
-  background: darkred;
-}
-.header {
-  background: black;
-  text-align: center;
-  padding: 40px 20px;
-  border-bottom: 10px solid crimson;
-}
+/* Header */
 .header {
   background: black;
   text-align: center;
@@ -39,13 +21,12 @@ button:hover {
 }
 
 .header h1 {
-  font-family: 'Creepster', cursive; /* spooky Google font */
   font-size: 4rem;
   color: crimson;
   text-shadow: 2px 2px 8px black;
-  margin: 0;
 }
 
+/* Navigation */
 .nav {
   margin-top: 20px;
 }
