@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+h1, h2, h3 {
+  color: crimson;
+  text-transform: uppercase;
+}
+
+a {
+  color: crimson;
+  text-decoration: none;
+}
+
+button {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+button:hover {
+  background: darkred;
+}
+.header {
+  background: black;
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 10px solid crimson;
+}
+.header {
+  background: black;
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 8px solid crimson;
+}
+
+.header h1 {
+  font-family: 'Creepster', cursive; /* spooky Google font */
+  font-size: 4rem;
+  color: crimson;
+  text-shadow: 2px 2px 8px black;
+  margin: 0;
+}
+
+.nav {
+  margin-top: 20px;
+}
+
+.nav a {
+  color: white;
+  background: crimson;
+  padding: 10px 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.nav a:hover {
+  background: darkred;
+}
