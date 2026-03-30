@@ -13,7 +13,7 @@ export default function ContactForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} style={{ maxWidth: '400px', margin: 'auto' }}>
+    <form onSubmit={handleSubmit} className="contact-form">
       <input name="name" placeholder="Name" onChange={handleChange} required />
       <input name="email" type="email" placeholder="Email" onChange={handleChange} required />
       <textarea name="message" placeholder="Tell us why you want to join" onChange={handleChange} required />

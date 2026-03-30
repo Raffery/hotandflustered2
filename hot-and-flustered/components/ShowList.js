@@ -4,14 +4,19 @@ export default function ShowList() {
   ];
 
   return (
-    <section style={{ padding: '20px' }}>
+    <section className="show-list-section">
       <h2>Upcoming Shows</h2>
-      <ul>
-        {shows.map((show, i) => (
-          <li key={i}>
-            <strong>{show.date}</strong> - {show.location}
-          </li>
-        ))}
+      <ul className="show-list">
+        {shows.map((show, i) => {
+          const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(show.location)}`;
+          return (
+            <li key={i} className="show-list-item">
+              <a href={mapUrl} target="_blank" rel="noopener noreferrer">
+                <strong>{show.date}</strong> - {show.location}
+              </a>
+            </li>
+          );
+        })}
       </ul>
     </section>
   );
