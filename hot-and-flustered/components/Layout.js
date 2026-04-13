@@ -6,6 +6,9 @@ export default function Layout({ children }) {
         <nav className="nav">
           <a href="/">Home</a>
           <a href="/gallery">Gallery</a>
+          <a href="/about">About Us</a>
+          <a href="/code-of-conduct">Cast Code of Conduct</a>
+          <a href="/lineup">Show Night Line Up</a>
           <a href="/contact">Join the Cast</a>
         </nav>
       </header>

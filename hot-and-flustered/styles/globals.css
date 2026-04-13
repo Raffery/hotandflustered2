@@ -7,7 +7,7 @@
 
 /* Horror Theme */
 body {
-  font-family: 'Creepster', cursive;
+  font-family: system-ui, sans-serif;
   background-color: black;
   color: white;
   -webkit-font-smoothing: antialiased;
@@ -52,10 +52,15 @@ body {
 }
 
 .header h1 {
+  font-family: 'Creepster', cursive;
   font-size: clamp(2.25rem, 5vw, 4rem);
   color: crimson;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
   margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Creepster', cursive;
 }
 
 /* Navigation */
