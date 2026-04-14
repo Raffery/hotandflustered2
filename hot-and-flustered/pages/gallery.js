@@ -20,7 +20,7 @@ export default function Gallery() {
     if (openIndex === null) return;
     setOpenIndex((openIndex + 1) % galleryImages.length);
   };
-
+ 
   return (
     <Layout>
       <section className="gallery">
