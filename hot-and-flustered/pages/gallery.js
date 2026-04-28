@@ -3,8 +3,8 @@ import Layout from '../components/Layout';
 
 const galleryImages = [
   { src: '/Rocky.jpg', alt: 'Rocky Horror Poster' },
-  { src: '/images/show1.jpg', alt: 'Show 1' },
-  { src: '/images/show2.jpg', alt: 'Show 2' },
+  { src: '/DSC02759-Enhanced-NR.jpg', alt: 'Bows' },
+  { src: '/DSC01608-Enhanced-NR.jpg', alt: 'Hot Patootie' },
 ];
 
 export default function Gallery() {
@@ -25,7 +25,7 @@ export default function Gallery() {
     <Layout>
       <section className="gallery">
         <h2>Cast & Show Gallery</h2>
-        <p>Click any image to open a full-screen view. Use arrows to browse.</p>
+        <p>Click any image to open a full-screen view.</p>
         <div className="gallery-grid">
           {galleryImages.map((img, idx) => (
             <button

@@ -1,6 +1,6 @@
 export default function ShowList() {
   const shows = [
-    { date: 'June 26, 2026', location: 'The Vic, Devonport' },
+    { date: 'July 31, 2026', location: 'The Vic, Devonport' },
   ];
 
   return (
